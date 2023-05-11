@@ -1,0 +1,62 @@
+.img-container {
+  position: relative;
+  text-align: center;
+  margin: auto;
+  width: 80%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  color: white;
+  text-shadow: 2px 2px #000;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+}
+.top-caption {
+  top: 0;
+}
+.bottom-caption {
+  bottom: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 900px;
+  height: 30px;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+img {
+  max-width: 600px; /* Replace 400px with your desired maximum width */
+  max-height: 600px; /* Replace 400px with your desired maximum height */
+}
+
+body {
+  background-color: #f2f2f2;
+}
